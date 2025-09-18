@@ -1,10 +1,16 @@
 package com.palm.chatapp.viewModels
 
+import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.palm.chatapp.ui.ChatViewModel
 import org.junit.Assert.assertEquals
+import org.junit.Rule
 import org.junit.Test
 
 class ChatViewModelTest {
+
+    @get:Rule
+    val instantTaskExecutorRule = InstantTaskExecutorRule()
+
     @Test
     fun `initial messages contain hello and welcome`() {
         val vm = ChatViewModel()

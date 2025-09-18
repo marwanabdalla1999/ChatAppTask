@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.palm.chatapp.R
 
 class ChatFragment : Fragment() {
-    private val viewModel: ChatViewModel by viewModels()
+    val viewModel: ChatViewModel by viewModels()
     private lateinit var recyclerView: RecyclerView
 
     override fun onCreateView(
