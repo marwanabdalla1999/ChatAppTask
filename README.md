@@ -126,4 +126,4 @@ class ChatFragmentTest {
 ---
 
 ✅ All tests pass locally:  
-![tests screenshot placeholder](docs/tests-green.png)  
+![Tests Passing](test-cases-passed.png)  
