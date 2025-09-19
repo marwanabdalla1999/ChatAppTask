@@ -1,4 +1,4 @@
-package com.palm.chatapp.ui
+package com.palm.chatapp.chat
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,7 +26,7 @@ class ChatFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        viewModel.messages.observe(viewLifecycleOwner) { msgs ->
+        viewModel.messages.observe(requireActivity()) { msgs ->
             recyclerView.adapter = MessagesAdapter(msgs)
         }
     }

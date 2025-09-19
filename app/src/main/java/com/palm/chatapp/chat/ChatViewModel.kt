@@ -1,4 +1,4 @@
-package com.palm.chatapp.ui
+package com.palm.chatapp.chat
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

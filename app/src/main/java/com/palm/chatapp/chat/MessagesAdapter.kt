@@ -1,4 +1,4 @@
-package com.palm.chatapp.ui
+package com.palm.chatapp.chat
 
 import android.view.LayoutInflater
 import android.view.View

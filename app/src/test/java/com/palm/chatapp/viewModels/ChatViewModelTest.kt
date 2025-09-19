@@ -1,7 +1,7 @@
 package com.palm.chatapp.viewModels
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.palm.chatapp.ui.ChatViewModel
+import com.palm.chatapp.chat.ChatViewModel
 import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test
